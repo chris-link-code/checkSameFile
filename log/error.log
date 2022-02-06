@@ -1,0 +1,36 @@
+2022-02-06 16:09:17,530 ERROR CheckFiles - D:\picture\0\run\md5.jarFile element in parameter 'null' already exists: 'D:\same_picture\copy_md5.jar'
+org.apache.commons.io.FileExistsException: File element in parameter 'null' already exists: 'D:\same_picture\copy_md5.jar'
+	at org.apache.commons.io.FileUtils.requireAbsent(FileUtils.java:2587)
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2305)
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2283)
+	at CheckFiles.lambda$main$0(CheckFiles.java:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-02-06 16:09:23,736 ERROR CheckFiles - D:\picture\weibo\65577374454707_avatar.pngFile element in parameter 'null' already exists: 'D:\same_picture\copy_65577374454707_avatar.png'
+org.apache.commons.io.FileExistsException: File element in parameter 'null' already exists: 'D:\same_picture\copy_65577374454707_avatar.png'
+	at org.apache.commons.io.FileUtils.requireAbsent(FileUtils.java:2587)
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2305)
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2283)
+	at CheckFiles.lambda$main$0(CheckFiles.java:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-02-06 16:09:23,831 ERROR CheckFiles - D:\picture\weibo\run\log\error.logFile element in parameter 'null' already exists: 'D:\same_picture\copy_error.log'
+org.apache.commons.io.FileExistsException: File element in parameter 'null' already exists: 'D:\same_picture\copy_error.log'
+	at org.apache.commons.io.FileUtils.requireAbsent(FileUtils.java:2587)
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2305)
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2283)
+	at CheckFiles.lambda$main$0(CheckFiles.java:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2022-02-06 16:09:29,024 ERROR CheckFiles - D:\picture\0\3258607896364787_avatar.pngFile element in parameter 'null' already exists: 'D:\same_picture\copy_3258607896364787_avatar.png'
+org.apache.commons.io.FileExistsException: File element in parameter 'null' already exists: 'D:\same_picture\copy_3258607896364787_avatar.png'
+	at org.apache.commons.io.FileUtils.requireAbsent(FileUtils.java:2587)
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2305)
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:2283)
+	at CheckFiles.lambda$main$0(CheckFiles.java:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
